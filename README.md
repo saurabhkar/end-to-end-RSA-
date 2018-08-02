@@ -1,2 +1,4 @@
-# end-to-end-RSA-
-Implementation of RSA cryptosystem on a microcontroller for IOT applications
+# RSA implementation on a microcontroller for IOT applications
+
+
+Designed a cryptosystem and implemented using RSA algorithm for text and image encryption and decryption . This project has been implemented on a microcontroller. Various modules has been used for transmitting and storage purpose . Arduino has been used as a microcontroller for both encryption and decryption.The first step involves generating public and private keys. The text is being converted into ASCII and then further into CipherText with the help of public key, which is sent over the radio channel provided by the RF 433 Mhz module connected to arduino. The data is stored in a SD card via SD card module. The Image is converted into its binary format which is then converted into CipherText and the same process of transmission is applicable for image . The image and text both are decrypted by using the private key generated through RSA algorihtm .
